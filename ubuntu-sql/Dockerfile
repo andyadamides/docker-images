@@ -8,6 +8,7 @@ RUN apt-get update \
     libunwind8 \
     libicu55
 
+# ------------------------------------------------------------------------------------SQL Packaga---------------------------------------------------------------------------------------------
 RUN mkdir ~/sqlpackage && \
     wget https://go.microsoft.com/fwlink/?linkid=2128144 --no-check-certificate && \
     unzip index.html?linkid=2128144 -d ~/sqlpackage && \
